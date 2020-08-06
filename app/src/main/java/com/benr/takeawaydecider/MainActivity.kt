@@ -9,11 +9,17 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val places = arrayOf("Amici Miei", "Atari-Ya", "Iro Sushi", "La Lluna", "Eat Tokyo")
+        val places = mutableListOf<String>("Atari-Ya", "Iro Sushi")
 
         button_decide.setOnClickListener {
             val randomPlace = places.random()
             selection.text = randomPlace
         }
+
+        button_add.setOnClickListener {
+            places.add(text_add.text.toString())
+            text_add.text.clear()
+        }
+
     }
 }
