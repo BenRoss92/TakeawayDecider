@@ -2,7 +2,6 @@
 
 ## To Do
 
-* Wiring up the adding button to add whatever is in the input field to the list, and then clear the input field immediately afterwards
 * Add some app colours
     * In the res>values>colors file choose your own primary and accent colors.
 * Add an image of a takeaway
@@ -17,3 +16,4 @@
 * Wiring up the deciding button to pick a takeaway place at random and display it in the selection text field
 * Add an empty input field for writing the name of a takeaway place
 * A button for adding a takeaway place, that does nothing yet
+* Wiring up the adding button to add whatever is in the input field to the list, and then clear the input field immediately afterwards
