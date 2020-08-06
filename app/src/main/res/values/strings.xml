@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">TakeawayDecider</string>
-    <string name="button_name">Choose for me</string>
+    <string name="button_name">Decide!</string>
 </resources>
