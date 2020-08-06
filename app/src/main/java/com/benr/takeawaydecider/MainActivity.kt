@@ -2,7 +2,6 @@ package com.benr.takeawaydecider
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -12,7 +11,7 @@ class MainActivity : AppCompatActivity() {
 
         val places = arrayOf("Amici Miei", "Atari-Ya", "Iro Sushi", "La Lluna", "Eat Tokyo")
 
-        button_randomise.setOnClickListener {
+        button_decide.setOnClickListener {
             val randomPlace = places.random()
             selection.text = randomPlace
         }
